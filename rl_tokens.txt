@@ -1,0 +1,733 @@
+InitWindow
+CloseWindow
+WindowShouldClose
+IsWindowReady
+IsWindowFullscreen
+IsWindowHidden
+IsWindowMinimized
+IsWindowMaximized
+IsWindowFocused
+IsWindowResized
+IsWindowState
+SetWindowState
+ClearWindowState
+ToggleFullscreen
+ToggleBorderlessWindowed
+MaximizeWindow
+MinimizeWindow
+RestoreWindow
+SetWindowIcon
+SetWindowIcons
+SetWindowTitle
+SetWindowPosition
+SetWindowMonitor
+SetWindowMinSize
+SetWindowMaxSize
+SetWindowSize
+SetWindowOpacity
+SetWindowFocused
+GetWindowHandle
+GetScreenWidth
+GetScreenHeight
+GetRenderWidth
+GetRenderHeight
+GetMonitorCount
+GetCurrentMonitor
+GetMonitorPosition
+GetMonitorWidth
+GetMonitorHeight
+GetMonitorPhysicalWidth
+GetMonitorPhysicalHeight
+GetMonitorRefreshRate
+GetWindowPosition
+GetWindowScaleDPI
+GetMonitorName
+SetClipboardText
+GetClipboardText
+EnableEventWaiting
+DisableEventWaiting
+ShowCursor
+HideCursor
+IsCursorHidden
+EnableCursor
+DisableCursor
+IsCursorOnScreen
+ClearBackground
+BeginDrawing
+EndDrawing
+BeginMode2D
+EndMode2D
+BeginMode3D
+EndMode3D
+BeginTextureMode
+EndTextureMode
+BeginShaderMode
+EndShaderMode
+BeginBlendMode
+EndBlendMode
+BeginScissorMode
+EndScissorMode
+BeginVrStereoMode
+EndVrStereoMode
+LoadVrStereoConfig
+UnloadVrStereoConfig
+LoadShader
+LoadShaderFromMemory
+IsShaderReady
+GetShaderLocation
+GetShaderLocationAttrib
+SetShaderValue
+SetShaderValueV
+SetShaderValueMatrix
+SetShaderValueTexture
+UnloadShader
+GetMouseRay
+GetCameraMatrix
+GetCameraMatrix2D
+GetWorldToScreen
+GetScreenToWorld2D
+GetWorldToScreenEx
+GetWorldToScreen2D
+SetTargetFPS
+GetFrameTime
+GetTime
+GetFPS
+SwapScreenBuffer
+PollInputEvents
+WaitTime
+SetRandomSeed
+GetRandomValue
+LoadRandomSequence
+UnloadRandomSequence
+TakeScreenshot
+SetConfigFlags
+OpenURL
+TraceLog
+SetTraceLogLevel
+MemAlloc
+MemRealloc
+MemFree
+SetTraceLogCallback
+SetLoadFileDataCallback
+SetSaveFileDataCallback
+SetLoadFileTextCallback
+SetSaveFileTextCallback
+
+    
+      LoadFileData
+     UnloadFileData
+     SaveFileData
+     ExportDataAsCode
+     LoadFileText
+     UnloadFileText
+     SaveFileText
+    
+
+    
+     FileExists
+     DirectoryExists
+     IsFileExtension
+     GetFileLength
+      GetFileExtension
+      GetFileName
+      GetFileNameWithoutExt
+      GetDirectoryPath
+      GetPrevDirectoryPath
+      GetWorkingDirectory
+      GetApplicationDirectory
+     ChangeDirectory
+     IsPathFile
+    FilePathList LoadDirectoryFiles
+    FilePathList LoadDirectoryFilesEx
+     UnloadDirectoryFiles
+     IsFileDropped
+    FilePathList LoadDroppedFiles
+     UnloadDroppedFiles
+     GetFileModTime
+
+    
+      CompressData
+      DecompressData
+     EncodeDataBase64
+      DecodeDataBase64
+
+    
+    AutomationEventList LoadAutomationEventList
+     UnloadAutomationEventList
+     ExportAutomationEventList
+     SetAutomationEventList
+     SetAutomationEventBaseFrame
+     StartAutomationEventRecording
+     StopAutomationEventRecording
+     PlayAutomationEvent
+
+    
+    
+    
+
+    
+     IsKeyPressed
+     IsKeyPressedRepeat
+     IsKeyDown
+     IsKeyReleased
+     IsKeyUp
+     GetKeyPressed
+     GetCharPressed
+     SetExitKey
+
+    
+     IsGamepadAvailable
+      GetGamepadName
+     IsGamepadButtonPressed
+     IsGamepadButtonDown
+     IsGamepadButtonReleased
+     IsGamepadButtonUp
+     GetGamepadButtonPressed
+     GetGamepadAxisCount
+     GetGamepadAxisMovement
+     SetGamepadMappings
+
+    
+     IsMouseButtonPressed
+     IsMouseButtonDown
+     IsMouseButtonReleased
+     IsMouseButtonUp
+     GetMouseX
+     GetMouseY
+    Vector2 GetMousePosition
+    Vector2 GetMouseDelta
+     SetMousePosition
+     SetMouseOffset
+     SetMouseScale
+     GetMouseWheelMove
+    Vector2 GetMouseWheelMoveV
+     SetMouseCursor
+
+    
+     GetTouchX
+     GetTouchY
+    Vector2 GetTouchPosition
+     GetTouchPoId
+     GetTouchPoCount
+
+    
+    
+    
+     SetGesturesEnabled
+     IsGestureDetected
+     GetGestureDetected
+     GetGestureHoldDuration
+    Vector2 GetGestureDragVector
+     GetGestureDragAngle
+    Vector2 GetGesturePinchVector
+     GetGesturePinchAngle
+
+    
+    
+    
+     UpdateCamera
+     UpdateCameraPro
+
+
+    
+    
+     SetShapesTexture
+
+    
+     DrawPixel
+     DrawPixelV
+     DrawLine
+     DrawLineV
+     DrawLineEx
+     DrawLineStrip
+     DrawLineBezier
+     DrawCircle
+     DrawCircleSector
+     DrawCircleSectorLines
+     DrawCircleGradient
+     DrawCircleV
+     DrawCircleLines
+     DrawCircleLinesV
+     DrawEllipse
+     DrawEllipseLines
+     DrawRing
+     DrawRingLines
+     DrawRectangle
+     DrawRectangleV
+     DrawRectangleRec
+     DrawRectanglePro
+     DrawRectangleGradientV
+     DrawRectangleGradientH
+     DrawRectangleGradientEx
+     DrawRectangleLines
+     DrawRectangleLinesEx
+     DrawRectangleRounded
+     DrawRectangleRoundedLines
+     DrawTriangle
+     DrawTriangleLines
+     DrawTriangleFan
+     DrawTriangleStrip
+     DrawPoly
+     DrawPolyLines
+     DrawPolyLinesEx
+
+    
+     DrawSplineLinear
+     DrawSplineBasis
+     DrawSplineCatmullRom
+     DrawSplineBezierQuadratic
+     DrawSplineBezierCubic
+     DrawSplineSegmentLinear
+     DrawSplineSegmentBasis
+     DrawSplineSegmentCatmullRom
+     DrawSplineSegmentBezierQuadratic
+     DrawSplineSegmentBezierCubic
+
+    
+    Vector2 GetSplinePoLinear
+    Vector2 GetSplinePoBasis
+    Vector2 GetSplinePoCatmullRom
+    Vector2 GetSplinePoBezierQuad
+    Vector2 GetSplinePoBezierCubic
+
+    
+     CheckCollisionRecs
+     CheckCollisionCircles
+     CheckCollisionCircleRec
+     CheckCollisionPoRec
+     CheckCollisionPoCircle
+     CheckCollisionPoTriangle
+     CheckCollisionPoPoly
+     CheckCollisionLines
+     CheckCollisionPoLine
+    Rectangle GetCollisionRec
+
+
+    
+    
+    Image LoadImage
+    Image LoadImageRaw
+    Image LoadImageSvg
+    Image LoadImageAnim
+    Image LoadImageFromMemory
+    Image LoadImageFromTexture
+    Image LoadImageFromScreen
+     IsImageReady
+     UnloadImage
+     ExportImage
+      ExportImageToMemory
+     ExportImageAsCode
+
+    
+    Image GenImageColor
+    Image GenImageGradientLinear
+    Image GenImageGradientRadial
+    Image GenImageGradientSquare
+    Image GenImageChecked
+    Image GenImageWhiteNoise
+    Image GenImagePerlinNoise
+    Image GenImageCellular
+    Image GenImageText
+
+    
+    Image ImageCopy
+    Image ImageFromImage
+    Image ImageText
+    Image ImageTextEx
+     ImageFormat
+     ImageToPOT
+     ImageCrop
+     ImageAlphaCrop
+     ImageAlphaClear
+     ImageAlphaMask
+     ImageAlphaPremultiply
+     ImageBlurGaussian
+     ImageResize
+     ImageResizeNN
+     ImageResizeCanvas
+     ImageMipmaps
+     ImageDither
+     ImageFlipVertical
+     ImageFlipHorizontal
+     ImageRotate
+     ImageRotateCW
+     ImageRotateCCW
+     ImageColorT
+     ImageColorInvert
+     ImageColorGrayscale
+     ImageColorContrast
+     ImageColorBrightness
+     ImageColorReplace
+    Color LoadImageColors
+    Color LoadImagePalette
+     UnloadImageColors
+     UnloadImagePalette
+    Rectangle GetImageAlphaBorder
+    Color GetImageColor
+
+    
+    
+     ImageClearBackground
+     ImageDrawPixel
+     ImageDrawPixelV
+     ImageDrawLine
+     ImageDrawLineV
+     ImageDrawCircle
+     ImageDrawCircleV
+     ImageDrawCircleLines
+     ImageDrawCircleLinesV
+     ImageDrawRectangle
+     ImageDrawRectangleV
+     ImageDrawRectangleRec
+     ImageDrawRectangleLines
+     ImageDraw
+     ImageDrawText
+     ImageDrawTextEx
+
+    
+    
+    Texture2D LoadTexture
+    Texture2D LoadTextureFromImage
+    TextureCubemap LoadTextureCubemap
+    RenderTexture2D LoadRenderTexture
+     IsTextureReady
+     UnloadTexture
+     IsRenderTextureReady
+     UnloadRenderTexture
+     UpdateTexture
+     UpdateTextureRec
+
+    
+     GenTextureMipmaps
+     SetTextureFilter
+     SetTextureWrap
+
+    
+     DrawTexture
+     DrawTextureV
+     DrawTextureEx
+     DrawTextureRec
+     DrawTexturePro
+     DrawTextureNPatch
+
+    
+    Color Fade
+     ColorToInt
+    Vector4 ColorNormalize
+    Color ColorFromNormalized
+    Vector3 ColorToHSV
+    Color ColorFromHSV
+    Color ColorT
+    Color ColorBrightness
+    Color ColorContrast
+    Color ColorAlpha
+    Color ColorAlphaBlend
+    Color GetColor
+    Color GetPixelColor
+     SetPixelColor
+     GetPixelDataSize
+
+
+    
+    Font GetFontDefault
+    Font LoadFont
+    Font LoadFontEx
+    Font LoadFontFromImage
+    Font LoadFontFromMemory
+     IsFontReady
+    GlyphInfo LoadFontData
+    Image GenImageFontAtlas
+     UnloadFontData
+     UnloadFont
+     ExportFontAsCode
+
+    
+     DrawFPS
+     DrawText
+     DrawTextEx
+     DrawTextPro
+     DrawTextCodepo
+     DrawTextCodepos
+
+    
+     SetTextLineSpacing
+     MeasureText
+    Vector2 MeasureTextEx
+     GetGlyphIndex
+    GlyphInfo GetGlyphInfo
+    Rectangle GetGlyphAtlasRec
+
+    
+     LoadUTF8
+     UnloadUTF8
+     LoadCodepos
+     UnloadCodepos
+     GetCodepoCount
+     GetCodepo
+     GetCodepoNext
+     GetCodepoPrevious
+      CodepoToUTF8
+
+    
+    
+     TextCopy
+     TextIsEqual
+      TextLength
+      TextFormat
+      TextSubtext
+     TextReplace
+     TextInsert
+      TextJoin
+      TextSplit
+     TextAppend
+     TextFindIndex
+      TextToUpper
+      TextToLower
+      TextToPascal
+     TextToInteger
+
+
+    
+     DrawLine3D
+     DrawPo3D
+     DrawCircle3D
+     DrawTriangle3D
+     DrawTriangleStrip3D
+     DrawCube
+     DrawCubeV
+     DrawCubeWires
+     DrawCubeWiresV
+     DrawSphere
+     DrawSphereEx
+     DrawSphereWires
+     DrawCylinder
+     DrawCylinderEx
+     DrawCylinderWires
+     DrawCylinderWiresEx
+     DrawCapsule
+     DrawCapsuleWires
+     DrawPlane
+     DrawRay
+     DrawGrid
+
+    
+    
+    
+
+    
+    Model LoadModel
+    Model LoadModelFromMesh
+     IsModelReady
+     UnloadModel
+    BoundingBox GetModelBoundingBox
+
+    
+     DrawModel
+     DrawModelEx
+     DrawModelWires
+     DrawModelWiresEx
+     DrawBoundingBox
+     DrawBillboard
+     DrawBillboardRec
+     DrawBillboardPro
+
+    
+     UploadMesh
+     UpdateMeshBuffer
+     UnloadMesh
+     DrawMesh
+     DrawMeshInstanced
+     ExportMesh
+    BoundingBox GetMeshBoundingBox
+     GenMeshTangents
+
+    
+    Mesh GenMeshPoly
+    Mesh GenMeshPlane
+    Mesh GenMeshCube
+    Mesh GenMeshSphere
+    Mesh GenMeshHemiSphere
+    Mesh GenMeshCylinder
+    Mesh GenMeshCone
+    Mesh GenMeshTorus
+    Mesh GenMeshKnot
+    Mesh GenMeshHeightmap
+    Mesh GenMeshCubicmap
+
+    
+    Material LoadMaterials
+    Material LoadMaterialDefault
+     IsMaterialReady
+     UnloadMaterial
+     SetMaterialTexture
+     SetModelMeshMaterial
+
+    
+    ModelAnimation LoadModelAnimations
+     UpdateModelAnimation
+     UnloadModelAnimation
+     UnloadModelAnimations
+     IsModelAnimationValid
+
+    
+     CheckCollisionSpheres
+     CheckCollisionBoxes
+     CheckCollisionBoxSphere
+    RayCollision GetRayCollisionSphere
+    RayCollision GetRayCollisionBox
+    RayCollision GetRayCollisionMesh
+    RayCollision GetRayCollisionTriangle
+    RayCollision GetRayCollisionQuad
+
+
+    
+     InitAudioDevice
+     CloseAudioDevice
+     IsAudioDeviceReady
+     SetMasterVolume
+     GetMasterVolume
+
+    
+    Wave LoadWave
+    Wave LoadWaveFromMemory
+     IsWaveReady
+    Sound LoadSound
+    Sound LoadSoundFromWave
+    Sound LoadSoundAlias
+     IsSoundReady
+     UpdateSound
+     UnloadWave
+     UnloadSound
+     UnloadSoundAlias
+     ExportWave
+     ExportWaveAsCode
+
+    
+     PlaySound
+     StopSound
+     PauseSound
+     ResumeSound
+     IsSoundPlaying
+     SetSoundVolume
+     SetSoundPitch
+     SetSoundPan
+    Wave WaveCopy
+     WaveCrop
+     WaveFormat
+     LoadWaveSamples
+     UnloadWaveSamples
+
+    
+    Music LoadMusicStream
+    Music LoadMusicStreamFromMemory
+     IsMusicReady
+     UnloadMusicStream
+     PlayMusicStream
+     IsMusicStreamPlaying
+     UpdateMusicStream
+     StopMusicStream
+     PauseMusicStream
+     ResumeMusicStream
+     SeekMusicStream
+     SetMusicVolume
+     SetMusicPitch
+     SetMusicPan
+     GetMusicTimeLength
+     GetMusicTimePlayed
+
+    
+    AudioStream LoadAudioStream
+     IsAudioStreamReady
+     UnloadAudioStream
+     UpdateAudioStream
+     IsAudioStreamProcessed
+     PlayAudioStream
+     PauseAudioStream
+     ResumeAudioStream
+     IsAudioStreamPlaying
+     StopAudioStream
+     SetAudioStreamVolume
+     SetAudioStreamPitch
+     SetAudioStreamPan
+     SetAudioStreamBufferSizeDefault
+     SetAudioStreamCallback
+
+     AttachAudioStreamProcessor
+     DetachAudioStreamProcessor
+
+     AttachAudioMixedProcessor
+     DetachAudioMixedProcessor
+
+
+     Vector2                
+     Vector3                
+     Vector4                
+     Matrix                 
+     Color                  
+     Rectangle              
+
+     Image                  
+     Texture                
+     RenderTexture          
+     NPatchInfo             
+     GlyphInfo              
+     Font                   
+
+     Camera3D               
+
+     Camera2D               
+     Mesh                   
+     Shader                 
+     MaterialMap            
+     Material               
+     Transform              
+     BoneInfo               
+     Model                  
+     ModelAnimation         
+     Ray                    
+     RayCollision           
+     BoundingBox            
+
+     Wave                   
+     AudioStream            
+     Sound                  
+     Music                  
+
+     VrDeviceInfo           
+     VrStereoConfig         
+
+     FilePathList           
+
+     AutomationEvent        
+     AutomationEventList    
+
+
+    
+  LIGHTGRAY  
+  GRAY       
+  DARKGRAY   
+  YELLOW     
+  GOLD       
+  ORANGE     
+  PINK       
+  RED        
+  MAROON     
+  GREEN      
+  LIME       
+  DARKGREEN  
+  SKYBLUE    
+  BLUE       
+  DARKBLUE   
+  PURPLE     
+  VIOLET     
+  DARKPURPLE 
+  BEIGE      
+  BROWN      
+  DARKBROWN  
+
+  WHITE      
+  BLACK      
+  BLANK      
+  MAGENTA    
+  RAYWHITE   
+
